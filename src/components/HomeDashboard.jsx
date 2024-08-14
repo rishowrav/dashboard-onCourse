@@ -6,18 +6,18 @@ import { FaAngleDown } from "react-icons/fa6";
 
 const HomeDashboard = () => {
   return (
-    <main className="w-4/5 ">
+    <main className="lg:w-4/5 ">
       <Header />
-      <div className="flex gap-4">
+      <div className="flex md:flex-row flex-col  gap-4">
         {/* left side */}
-        <div className="w-2/5 space-y-4">
+        <div className="md:w-2/5 space-y-4">
           <Card />
           <Card />
           <Card />
           <Card />
         </div>
         {/* right side */}
-        <div className="w-3/5 space-y-4">
+        <div className="md:w-3/5 space-y-4">
           <div className="flex gap-4">
             <CardRight />
             <CardRight />

@@ -7,9 +7,12 @@ import { IoMdSettings } from "react-icons/io";
 
 const Sidebar = () => {
   return (
-    <aside className="w-1/5 h-screen border">
+    <aside className="w-1/5 h-screen border lg:block hidden">
       <div>
-        <img className="w-32 mx-auto my-8" src="logo.webp" alt="" />
+        {/* <img className="w-32 mx-auto my-8" src="logo.webp" alt="" /> */}
+        <h4 className="text-4xl font-bold my-8 text-center">
+          <span className="text-blue-500">ON</span>Course
+        </h4>
       </div>
       <nav className="ml-8 flex flex-col gap-32">
         <ul className="space-y-4">
